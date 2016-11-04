@@ -12,6 +12,7 @@
         android:gravity="center_vertical"
         android:background="#F7F7F7">
         <Button
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
@@ -27,19 +28,8 @@
             android:layout_centerHorizontal="true"
             android:gravity="center_horizontal"
             android:text="@string/contacts"
-            android:layout_alignBaseline="@+id/setting"
+            android:layout_alignBaseline="@+id/back"
             android:textSize="22sp" />
-        <Button
-            android:id="@+id/setting"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:gravity="center_horizontal|center_vertical"
-            android:background="#F7F7F7"
-            android:text="@string/setting"
-            android:textSize="15sp" >
-        </Button>
     </RelativeLayout>
     
      <LinearLayout
@@ -65,24 +55,27 @@
         android:paddingTop="0.5dp"
         android:orientation="horizontal" >
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#F7F7F7"
-            android:text="@string/contacts"
-            android:textAlignment="center"
-             android:layout_weight="1"
-            android:textSize="15sp" >
-        </Button>
-        <Button
+            android:id="@+id/chats"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#F7F7F7"
             android:text="@string/chats"
-            android:textAlignment="center"
+            android:gravity="center"
             android:layout_weight="1"
             android:textSize="15sp" >
         </Button>
         <Button
+            android:id="@+id/contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F7F7F7"
+            android:text="@string/contacts"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp" >
+        </Button>
+        <Button
+            android:id="@+id/news"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#F7F7F7"
@@ -92,6 +85,7 @@
             android:textSize="15sp" >
         </Button>
         <Button
+            android:id="@+id/setting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#F7F7F7"

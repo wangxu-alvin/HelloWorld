@@ -10,4 +10,9 @@
     <string name="setting">设置</string>
     <string name="back">返回</string>
 
+    <drawable name="red">#ff0000</drawable>
+    <drawable name="normal">#f7f7f7</drawable>
+
+    <string name="title_activity_setting">SettingActivity</string>
+
 </resources>
