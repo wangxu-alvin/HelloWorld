@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWorld</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ID">不知道</string>
+    <string name="contacts">联系人</string>
+    <string name="chats">聊天</string>
+    <string name="news">动态</string>
+    <string name="setting">设置</string>
+    <string name="back">返回</string>
+
+</resources>
